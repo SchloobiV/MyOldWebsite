@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<div class="header">
+ <a href="index.html" class="logo">Team Fortress 2</a>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Team_Fortress_2_style_logo.svg" alt="Homepage" style="width:42px;height:42px;">
+</a>
+  <div class="header-right">
+    <a class="active" href="page1.html">Classes</a>
+    <a href="page2.html">Gamemodes</a>
+    <a href="page3.html">Collectables</a>
+    <a href="page4.html">Mann vs Machine</a>
+    <a href="page5.html">Play for Free!</a>
+  </div>
+</div>
+<body>
+<img src="https://i.ytimg.com/vi/Z8iC3iplCK4/maxresdefault.jpg" width="550px" class="gamemodesimg">
+<p> Team Fortress 2 has many gamemodes to play, each gamemode having a unquie set of maps and objectives. Maps and gamemodes may different rules depending on if its the competitive or casual version of the map</p>
+<table>
+<thead>
+  <tr>
+    <th>
+      6v6 compatibility
+      </th>
+    <th>
+     More maps
+      </th>
+      <th>
+      Random Critical Hits
+      </th>
+    <th>
+     Random Bullet spread
+      </th>
+      <th>
+     Play with free account
+      </th>
+      <th>
+     More announcer voice line
+      </th>
+      <th>
+     More team communication
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>
+Competitive
+    </td>
+    <td>
+Casual
+    </td>
+    <td>
+Casual
+    </td>
+    <td>
+Casual
+    </td>
+    <td>
+Casual
+    </td>
+    <td>
+Competitive
+    </td>
+    <td>
+Competitve
+    </td>
+    </tr>
+  </tbody>
+  </table>
+<button type="button" class="button" onclick="myMove()">Here</button>
+<p>Help scout run out of the blue team's base by clicking here!</p>
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 850) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+<br>
+<br>
+<div id ="container">
+  <div id ="animate"><img src="https://wiki.teamfortress.com/w/images/thumb/4/45/Scouttaunt2.PNG/350px-Scouttaunt2.PNG" width="100px"></div>
+</div>
+  </body>

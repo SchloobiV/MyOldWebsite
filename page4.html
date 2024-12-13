@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<div class="header">
+ <a href="index.html" class="logo">Team Fortress 2</a>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Team_Fortress_2_style_logo.svg" alt="Homepage" style="width:42px;height:42px;">
+</a>
+  <div class="header-right">
+    <a class="active" href="page1.html">Classes</a>
+    <a href="page2.html">Gamemodes</a>
+    <a href="page3.html">Collectables</a>
+    <a href="page4.html">Mann vs Machine</a>
+    <a href="page5.html">Play for Free!</a>
+  </div>
+</div>
+<body>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ef18718-60d9-4d07-9c20-514f1a521ef3/d5t9wi2-5034240d-a6f0-48c5-8249-40ce68428c50.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2VmMTg3MTgtNjBkOS00ZDA3LTljMjAtNTE0ZjFhNTIxZWYzXC9kNXQ5d2kyLTUwMzQyNDBkLWE2ZjAtNDhjNS04MjQ5LTQwY2U2ODQyOGM1MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.R3sKMTrDlBo-hYZjpWFpyxAEaksSroJ_w53T8LuAPZ8" class="mannimg" width="400px">
+
+<p> Play Mann vs Machine a new gamemode in Team Fortess 2! Play for free on our community servers with frineds or pay for tickets and get many rewards for playing. If you are lucky you can get the super rare australium weaponm skins!</p>
+<table width="75%"> 
+<thead>
+<th> Paid Games (Mann up Mode) </th>
+<th> Community Servers </th>
+  <thead> 
+<tbody>
+<tr> 
+  <td>
+    Pay to play</td>
+    <td> 
+     Free to play
+    </td>
+</tr>
+<tr> 
+  <td> 
+   Rare items
+  </td>
+  <td> 
+  Custom maps and rules
+  </td>
+</tr>
+<tr>
+<td> 
+  Pay more for more rewards
+</td>
+<td>
+  Try new loadouts and strategies without wasting money
+ </td>
+  </tr>
+
+</tbody>
+  <table>
+<button type="button" class="button" onclick="myMove()">Here</button>
+<p>Help scout run out of the blue team's base by clicking here!</p>
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 850) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+<br>
+<br>
+<div id ="container">
+  <div id ="animate"><img src="https://wiki.teamfortress.com/w/images/thumb/4/45/Scouttaunt2.PNG/350px-Scouttaunt2.PNG" width="100px"></div>
+  
+</div>
+  </body>

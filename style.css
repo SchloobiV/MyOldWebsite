@@ -1,0 +1,99 @@
+.header {
+  overflow: hidden;
+  background-color:cornflowerblue;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: blue;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.classesimg {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+.gamemodesimg {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+.medicimg {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+.mannimg {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+.ftpimg {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+body {
+
+  font-family: "Arial";
+}
+table {
+  border: 5px solid gainsboro;
+}
+th, td {
+border: 10px solid cornflowerblue;
+}
+ td {
+  border: 2px solid cornflowerblue;
+ }
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#container {
+  width: 900px;
+  height: 100px;
+  border: 8px;
+  position: relative;
+  background:cornflowerblue;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: cornflowerblue;
+}

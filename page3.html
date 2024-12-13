@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<div class="header">
+ <a href="index.html" class="logo">Team Fortress 2</a>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Team_Fortress_2_style_logo.svg" alt="Homepage" style="width:42px;height:42px;">
+</a>
+  <div class="header-right">
+    <a class="active" href="page1.html">Classes</a>
+    <a href="page2.html">Gamemodes</a>
+    <a href="page3.html">Collectables</a>
+    <a href="page4.html">Mann vs Machine</a>
+    <a href="page5.html">Play for Free!</a>
+  </div>
+</div>
+<body>
+<img src="https://spuf.org/wp-content/uploads/2017/12/Loadout-Screen.png" class="medicimg" width="400px">
+<p> Team Fortress 2 has many things to collect such as weapon skins and cosmetics to dress up your characters. Trade and sell your items in the steam market or marketplace.tf some items are rarer and more expensive than others but don't worry they won't affect the gameplay!<br><br> I would reccomend doing your trading on Marketplace.tf</p>
+<table width="75%"> 
+<thead>
+<th> Steam Market </th>
+<th> Marketplace.tf </th>
+  <thead> 
+<tbody>
+<tr> 
+  <td>
+    5% Transaction Fee </td>
+    <td> 
+      Only pay for items you get
+    </td>
+</tr>
+<tr> 
+  <td> 
+    Wait long times to get your items, sometimes months
+  </td>
+  <td> 
+    Get items fast
+  </td>
+</tr>
+<tr>
+<td> 
+  Unfair prices
+</td>
+<td>
+  Bot that removes trades with overpriced items </td>
+  </tr>
+</tbody>
+  <table>
+<button type="button" class="button" onclick="myMove()">Here</button>
+<p>Help scout run out of the blue team's base by clicking here!</p>
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 850) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+<br>
+<br>
+<div id ="container">
+  <div id ="animate"><img src="https://wiki.teamfortress.com/w/images/thumb/4/45/Scouttaunt2.PNG/350px-Scouttaunt2.PNG" width="100px"></div>
+</div>
+  </body>

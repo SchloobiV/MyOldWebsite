@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<div class="header">
+ <a href="index.html" class="logo">Team Fortress 2</a>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Team_Fortress_2_style_logo.svg" alt="Homepage" style="width:42px;height:42px;">
+</a>
+
+
+  <div class="header-right">
+    <a class="active" href="page1.html">Classes</a>
+    <a href="page2.html">Gamemodes</a>
+    <a href="page3.html">Collectables</a>
+    <a href="page4.html">Mann vs Machine</a>
+    <a href="page5.html">Play for Free!</a>
+  </div>
+</div>
+<body>
+<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/440/capsule_616x353.jpg?t=1592263852" class="ftpimg" width="400px">
+
+<p> Team Fortress 2 is now free to play! Get the game free on steam all you need to do is make an account. If you spend 5$ or more on in game items such as cosmetics or weapons your account will be upgraded to a premuim account! You will gain acess to voice chat, text chat, competitive gamemodes, as well as somee free cosmetics. You can spend money to get weapons that will change up your playstle but you dont have to. You are able to get every weapon for free overt time. You will randomly find them as you play.</p>
+<table>
+<th> Free account </th>
+<th>  Premuim (paid) account</th>
+  <thead> 
+<tbody>
+<tr> 
+  <td>
+    Accsess to casual gamemode and community servers</td>
+    <td> 
+     
+    Accsess to competiitve gamemode</td>
+</tr>
+<tr> 
+  <td> 
+   Hear and see team chat
+  </td>
+  <td> 
+  Talk and type in team chat
+  </td>
+</tr>
+<tr>
+<td> 
+  Craft and trade some items
+</td>
+<td>
+  Craft and trade rare+ items
+ </td>
+  </tr>
+</tbody>
+  </table>
+<button type="button" class="button" onclick="myMove()">Here</button>
+<p>Help scout run out of the blue team's base by clicking here!</p>
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 850) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+<br>
+<br>
+<div id ="container">
+  <div id ="animate"><img src="https://wiki.teamfortress.com/w/images/thumb/4/45/Scouttaunt2.PNG/350px-Scouttaunt2.PNG" width="100px"></div>
+  
+</div>
+</body>
